@@ -1,0 +1,957 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.warpper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 10px black;
+    /* position: fixed;
+    top: 0; */
+}
+.main-left{
+    width: 30%;
+    text-align: center;
+}
+.main-right{
+    width: 70%;
+    text-align: center;
+}
+.main-right li{
+    display: inline;
+    padding: 0 20px;
+}
+.main-right a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-right a:hover{
+    border: 2px solid black;
+}
+.main-right ul{
+    padding: 20px 0;
+}
+.main-b{
+    width: 100%;
+    display: flex;
+    margin: 80px 0;
+}
+.main-b-left{
+    width: 50%;
+    padding: 80px 0 80px 70px;
+}
+.main-b-right{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.main-b-left h1{
+    font-size: 50px;
+}
+.main-b-left button{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 50px 0;
+    border: none;
+    border-radius: 10px;
+}
+.main-b-left button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+.main-b-right img{
+    width: 500px;
+}
+.sec-a{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+.sec-a img{
+    width: 1300px;
+}
+.sec-b{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+.sec-b button{
+    width: 20%;
+    background-color: greenyellow;
+    border: none;
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sec-b button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 10px greenyellow;
+}
+.sec-b p{
+    display: inline;
+}
+.sec-c{
+    width: 100%;
+    display: flex;
+}
+.sec-c-left{
+    width: 50%;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sec-c-left:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-c-right{
+    width: 50%;
+    display: flex;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sec-c-right:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-c-text{
+    width: 50%;
+    text-align: center;
+    padding: 40px 0;
+}
+.sec-c-img{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-c-img img{
+    width: 250px;
+}
+.sec-c-text h1{
+    font-size: 40px;
+}
+.sec-c-text button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.sec-c-text button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+.sec-d{
+    width: 100%;
+    display: flex;
+}
+.sec-d-left{
+    width: 50%;
+    display: flex;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sec-d-left:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-d-right{
+    width: 50%;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sec-d-right:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-d-text{
+    width: 50%;
+    text-align: center;
+    padding: 70px 0;
+}
+.sec-d-img{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-d-img img{
+    width: 250px;
+}
+.sec-d-text h1{
+    font-size: 40px;
+}
+.sec-d-text button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.sec-d-text button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+.sec-e{
+    width: 100%;
+    display: flex;
+}
+.sec-e-left{
+    width: 50%;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sec-e-left:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-e-right{
+    width: 50%;
+    display: flex;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sec-e-right:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-e-text{
+    width: 50%;
+    text-align: center;
+    padding: 70px 0;
+}
+.sec-e-img{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-e-img img{
+    width: 250px;
+}
+.sec-e-text h1{
+    font-size: 40px;
+}
+.sec-e-text button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.sec-e-text button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+.sec-f{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+.sec-f:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-f-left{
+    width: 50%;
+    padding: 60px 0 60px 60px;
+}
+.sec-f-right{
+    width: 50%;
+    text-align: center;
+}
+.sec-f-left button{
+    width: 40%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.sec-f-left button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+.sec-f-left h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.sec-f-right img{
+    width: 400px;
+}
+.sec-g{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+.sec-g button{
+    width: 20%;
+    background-color: greenyellow;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sec-g p{
+    display: inline;
+}
+.sec-h{
+    width: 100%;
+    display: flex;
+    background-color: navy;
+    color: white;
+    margin: 50px 0;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+.sec-h:hover{
+    box-shadow: 0 0 10px navy;
+}
+.sec-h-one{
+    width: 33%;
+    text-align: center;
+    border-right:2px solid white ;
+    padding: 50px 0;
+    margin: 0 10px;
+}
+.sec-h-two{
+    width: 33%;
+    padding: 50px 0;
+    border-right:2px solid white ;
+    margin: 0 10px;
+}
+.sec-h-three{
+    width: 34%;
+    padding: 50px 0;
+    margin: 0 10px;
+    
+}
+.sec-h h5{
+    color: greenyellow;
+    margin: 30px 0;
+    font-size: 30px;
+    text-align: start;
+}
+.sec-h h5:hover{
+    border-bottom: 2px solid greenyellow;
+    width: 50%;
+}
+.sec-l{
+    width: 100%;
+    text-align: start;
+    padding-left: 30px;
+}
+.sec-l button{
+    background-color: greenyellow;
+    border: none;
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sec-l p{
+    display: inline;
+}
+.sec-k{
+    width: 100%;
+    background-color: black;
+    color: white;
+   margin: 50px 0;
+   padding: 50px 0;
+   padding-left: 200px;
+   border-radius: 20px;
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question h3{
+    font-size: 1.8rem;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 1.4s ease;
+}
+.faq.active .answer{
+    max-height: 300px;
+}
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+transition: transform 0.5s ease-in;
+}
+.sec-j{
+    width: 100%;
+    text-align: start;
+    padding-left: 20px;
+}
+.sec-j button{
+    width: 20%;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px 0;
+}
+.sec-j p{
+    display: inline;
+}
+.sec-s{
+    width: 100%;
+    display: flex;
+}
+.sec-s-one{
+    width: 33%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-s-one:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-s-two{
+    width: 33%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-s-two:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-s-three{
+    width: 34%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-s-three:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-s-img{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec-s-text{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec-s-img h1{
+    font-size: 40px;
+}
+
+.sec-r{
+    width: 100%;
+    display: flex;
+}
+.sec-r-one{
+    width: 33%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-r-one:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-r-two{
+    width: 33%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-r-two:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-r-three{
+    width: 34%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-r-three:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-r-img{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec-r-text{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec-r-img h1{
+    font-size: 40px;
+}
+.sec-t{
+    width: 100%;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+.sec-t button{
+    border: none;
+    background-color: greenyellow;
+    padding: 15px;
+    border-radius: 10px;
+    width: 20%;
+}
+.sec-t p{
+    display: inline;
+}
+.sec-p{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    margin: 50px 0;
+    padding: 30px 0;
+    border-radius: 20px;
+}
+.sec-p:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-p-left{
+    width: 50%;
+    padding-left: 30px;
+    padding: 50px 0 50px 50px;
+}
+.sec-p-right{
+    width: 50%;
+    text-align: end;
+}
+.sec-p-left input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.sec-p-left button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px 0;
+}
+.sec-p-left button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+.sec-p-right img{
+    width: 450px;
+    text-align: end;
+}
+.foo-a{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    /* border-radius: 20px; */
+}
+.foo-a-one{
+    width: 20%;
+    text-align: center;
+    padding: 20px 0;
+}
+.foo-a-two{
+    width: 50%;
+    text-align: center;
+}
+.foo-a-three{
+    width: 30%;
+    text-align: center;
+}
+.foo-a-two li{
+    display: inline;
+    padding: 0 20px;
+}
+.foo-a-two ul{
+    padding: 20px 0;
+}
+.foo-a-two a{
+    color: white;
+}
+.foo-a-three i{
+    font-size: 30px;
+    padding: 20px 10px;
+}
+.foo-b{
+    width: 100%;
+    display: flex;
+     background-color: black;
+    color: white;
+}
+.foo-b-left{
+    width: 30%;
+    text-align: center;
+}
+.foo-b-right{
+    width: 70%;
+    text-align: center;
+    padding-top: 50px;
+}
+.foo-b-left button{
+    border: none;
+    background-color: greenyellow;
+    padding: 15px;
+    width: 40%;
+    border-radius: 10px;
+    margin: 20px 0;
+
+}
+.foo-b-left button:hover{
+    background-color: white;
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 10px greenyellow;
+}
+.foo-b-right button{
+    border: none;
+    background-color: greenyellow;
+    padding: 15px;
+    width: 40%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.foo-b-right button:hover{
+    background-color: white;
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 10px greenyellow;
+}
+.foo-b-right input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.foo-c{
+    width: 100%;
+    text-align: center;
+}
+.foo-e{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 20px; 
+    padding: 30px 0;
+}
+.foo-e:hover{
+    box-shadow: 0 0 10px black;
+}
+@media (max-width:1024px) {
+    .main-right li{
+        padding: 0 15px;
+    }
+    .sec-a img {
+        width: 1000px;
+    }
+}
+@media (max-width:991px) {
+    .sec-c-img img{
+        width: 200px;
+    }
+    .sec-d-img img{
+        width: 200px;
+    }
+    .sec-e-img img{
+        width: 200px;
+    }
+}
+@media (max-width:768px) {
+    .main-right li{
+        padding: 0;
+    }
+    .main-b{
+        display: block;
+    }
+    .main-b-left{
+        width: 100%;
+        text-align: center;
+    }
+    .main-b-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-c{
+        display: block;
+    }
+    .sec-c-left{
+        /* display: block; */
+        width: 100%;
+        margin: 0;
+    }
+    .sec-c-img{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-c-text{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-c-right{
+        width: 100%;
+        margin: 0;
+    }
+
+    .sec-d{
+        display: block;
+    }
+    .sec-d-left{
+        /* display: block; */
+        width: 100%;
+        margin: 0;
+    }
+    .sec-d-img{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-d-text{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-d-right{
+        width: 100%;
+        margin: 0;
+    }
+
+    .sec-e{
+        display: block;
+    }
+    .sec-e-left{
+        /* display: block; */
+        width: 100%;
+        margin: 0;
+    }
+    .sec-e-img{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-e-text{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-e-right{
+        width: 100%;
+        margin: 0;
+    }
+    .sec-k{
+        padding-left: 50px;
+    }
+    .sec-a img{
+        width: 800px;
+    }
+    .sec-p-right img{
+        width: 380px;
+    }
+    .main-b-left{
+        padding: 0;
+    }
+}
+@media (max-width:450px) {
+    .main-left{
+        width: 100%;
+
+    }
+    .main{
+        display: block;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .main-right li{
+        display: block;
+    }
+    .main-b-left button{
+        width: 50%;
+    }
+    .main-b-right img{
+        width: 400px;
+    }
+    .sec-a img{
+        width: 450px;
+    }
+    .sec-f{
+        display: block;
+    }
+    .sec-f-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-f-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-f-left button{
+        width: 60%;
+    }
+    .sec-g button{
+        width: 40%;
+    }
+    .sec-h{
+        display: block;
+    }
+    .sec-h-one{
+        width: 100%;
+        text-align: center;
+       margin: 0;
+    }
+    .sec-h-two{
+        width: 100%;
+        text-align: center;
+       margin: 0;
+    }
+    .sec-h-three{
+        width: 100%;
+        text-align: center;
+       margin: 0;
+    }
+    .sec-l button{
+        width: 50%;
+    }
+    .sec-k{
+        width: 100%;
+        padding: 0;
+    }
+    .sec-s{
+        display: block;
+    }
+    .sec-s-one{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-s-two{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-s-three{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .sec-r{
+        display: block;
+    }
+    .sec-r-one{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-r-two{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-r-three{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-t button {
+        width: 35%;
+    }
+    .sec-p{
+        display: block;
+    }
+    .sec-p-left{
+        width: 100%;
+        /* text-align: center; */
+        margin: 0;
+        padding: 0;
+    }
+    .sec-p-right img{
+        text-align: end;
+    }
+    .foo-a{
+        display: block;
+    }
+    .foo-a-one{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a-two{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a-three{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a-two li{
+        padding: 0 9px;
+    }
+    .foo-b{
+        display: block;
+    }
+    .foo-b-left{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-b-right{
+        width: 100%;
+        text-align: center;
+    }
+}
